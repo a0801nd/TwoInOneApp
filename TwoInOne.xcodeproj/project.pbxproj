@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12881C629BE10FE00F5BD28 /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12881C529BE10FE00F5BD28 /* UserVC.swift */; };
+		A12A468D29E2E1D700C9F793 /* Pods_TwoInOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F32DF081FDEB79EBBB38ED9 /* Pods_TwoInOne.framework */; };
+		A134A27029AE7FEE0019E70B /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134A26F29AE7FEE0019E70B /* WeatherVC.swift */; };
+		A134A27229AE7FFC0019E70B /* CryptoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A134A27129AE7FFC0019E70B /* CryptoVC.swift */; };
+		A13E075929A7D915002DB525 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E075829A7D915002DB525 /* MainVC.swift */; };
+		A13E075E29A7F0FA002DB525 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E075D29A7F0FA002DB525 /* Button.swift */; };
+		A13E076029A7F127002DB525 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E075F29A7F127002DB525 /* Label.swift */; };
+		A1488C6D29B130B900D5F787 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1488C6C29B130B900D5F787 /* WeatherData.swift */; };
+		A1488C6F29B1354F00D5F787 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1488C6E29B1354F00D5F787 /* WeatherModel.swift */; };
+		A1488C7129B1386000D5F787 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1488C7029B1386000D5F787 /* WeatherManager.swift */; };
+		A1569C6E29A6DC6B00AEA589 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1569C6D29A6DC6B00AEA589 /* Constants.swift */; };
+		A164408829AA84BA008DB560 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164408729AA84BA008DB560 /* RegistrationVC.swift */; };
+		A165F12F29AD2DA600C7F0A2 /* DataTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A165F12E29AD2DA600C7F0A2 /* DataTextField.swift */; };
+		A182A1A629B2398500F82455 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A182A1A529B2398500F82455 /* CoinManager.swift */; };
+		A182A1AA29B23A1000F82455 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A182A1A929B23A1000F82455 /* CoinModel.swift */; };
+		A182A1AC29B23A1800F82455 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A182A1AB29B23A1800F82455 /* CoinData.swift */; };
+		A185063B29BD023100010908 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A185063A29BD023100010908 /* GoogleService-Info.plist */; };
+		A198C5FE29BE0BBB00930383 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A198C5FD29BE0BBB00930383 /* Image.swift */; };
+		A198C60029BE104100930383 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A198C5FF29BE104100930383 /* View.swift */; };
+		A1B299B729A69B2F003E5CCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B299B629A69B2F003E5CCF /* AppDelegate.swift */; };
+		A1B299B929A69B2F003E5CCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B299B829A69B2F003E5CCF /* SceneDelegate.swift */; };
+		A1B299BE29A69B2F003E5CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B299BC29A69B2F003E5CCF /* Main.storyboard */; };
+		A1B299C029A69B30003E5CCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B299BF29A69B30003E5CCF /* Assets.xcassets */; };
+		A1B299C329A69B30003E5CCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B299C129A69B30003E5CCF /* LaunchScreen.storyboard */; };
+		A1D0FCB429B3833500DDF4AC /* buttonPressed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D0FCB229B3833500DDF4AC /* buttonPressed.mp3 */; };
+		A1D0FCB529B3833500DDF4AC /* interfaceLoaded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D0FCB329B3833500DDF4AC /* interfaceLoaded.mp3 */; };
+		A1ECC3DB29B3696900650EB1 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC3DA29B3696900650EB1 /* AudioModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F32DF081FDEB79EBBB38ED9 /* Pods_TwoInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwoInOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12881C529BE10FE00F5BD28 /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
+		A134A26F29AE7FEE0019E70B /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		A134A27129AE7FFC0019E70B /* CryptoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoVC.swift; sourceTree = "<group>"; };
+		A13E075829A7D915002DB525 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A13E075D29A7F0FA002DB525 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		A13E075F29A7F127002DB525 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		A1488C6C29B130B900D5F787 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		A1488C6E29B1354F00D5F787 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		A1488C7029B1386000D5F787 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		A1569C6D29A6DC6B00AEA589 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A164408729AA84BA008DB560 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		A165F12E29AD2DA600C7F0A2 /* DataTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTextField.swift; sourceTree = "<group>"; };
+		A182A1A529B2398500F82455 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		A182A1A929B23A1000F82455 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		A182A1AB29B23A1800F82455 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		A185063A29BD023100010908 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A198C5FD29BE0BBB00930383 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		A198C5FF29BE104100930383 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		A1B299B329A69B2F003E5CCF /* TwoInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B299B629A69B2F003E5CCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B299B829A69B2F003E5CCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1B299BD29A69B2F003E5CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B299BF29A69B30003E5CCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B299C229A69B30003E5CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B299C429A69B30003E5CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CF6D3029AE6B47001BF792 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A1CF6D3229AE6B47001BF792 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A1CF6D3329AE6B47001BF792 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A1CF6D3629AE6C0B001BF792 /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		A1CF6D3729AE6C0C001BF792 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A1CF6D3B29AE6CEF001BF792 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A1D0FCB229B3833500DDF4AC /* buttonPressed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonPressed.mp3; sourceTree = "<group>"; };
+		A1D0FCB329B3833500DDF4AC /* interfaceLoaded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = interfaceLoaded.mp3; sourceTree = "<group>"; };
+		A1ECC3DA29B3696900650EB1 /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		B3A2B3BF20214E68E078894C /* Pods-TwoInOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoInOne.debug.xcconfig"; path = "Target Support Files/Pods-TwoInOne/Pods-TwoInOne.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C3991157BB2075A0839F0E /* Pods-TwoInOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoInOne.release.xcconfig"; path = "Target Support Files/Pods-TwoInOne/Pods-TwoInOne.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B299B029A69B2F003E5CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A468D29E2E1D700C9F793 /* Pods_TwoInOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0EED89B6858B00E180E408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F32DF081FDEB79EBBB38ED9 /* Pods_TwoInOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A13E075329A7D3A9002DB525 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A1CF6D3A29AE6C17001BF792 /* Roboto */,
+				A1CF6D3929AE6C0F001BF792 /* NunitoSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A13E075A29A7EC5F002DB525 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A13E075D29A7F0FA002DB525 /* Button.swift */,
+				A13E075F29A7F127002DB525 /* Label.swift */,
+				A165F12E29AD2DA600C7F0A2 /* DataTextField.swift */,
+				A198C5FD29BE0BBB00930383 /* Image.swift */,
+				A198C5FF29BE104100930383 /* View.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A182A1A729B239E700F82455 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				A182A1A529B2398500F82455 /* CoinManager.swift */,
+				A182A1A929B23A1000F82455 /* CoinModel.swift */,
+				A182A1AB29B23A1800F82455 /* CoinData.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		A182A1A829B239EF00F82455 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				A1488C6C29B130B900D5F787 /* WeatherData.swift */,
+				A1488C6E29B1354F00D5F787 /* WeatherModel.swift */,
+				A1488C7029B1386000D5F787 /* WeatherManager.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		A1B299AA29A69B2F003E5CCF = {
+			isa = PBXGroup;
+			children = (
+				A1B299B529A69B2F003E5CCF /* TwoInOne */,
+				A1B299B429A69B2F003E5CCF /* Products */,
+				D2A958146B10A800263BFF58 /* Pods */,
+				9A0EED89B6858B00E180E408 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B299B429A69B2F003E5CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B299B329A69B2F003E5CCF /* TwoInOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B299B529A69B2F003E5CCF /* TwoInOne */ = {
+			isa = PBXGroup;
+			children = (
+				A1B299B629A69B2F003E5CCF /* AppDelegate.swift */,
+				A1B299B829A69B2F003E5CCF /* SceneDelegate.swift */,
+				A1569C6D29A6DC6B00AEA589 /* Constants.swift */,
+				A1ECC3DC29B36B9200650EB1 /* Sounds */,
+				A13E075329A7D3A9002DB525 /* Fonts */,
+				A1B299CF29A6A4AD003E5CCF /* Models */,
+				A13E075A29A7EC5F002DB525 /* CustomViews */,
+				A1B299D029A6A4D6003E5CCF /* Controllers */,
+				A1B299BC29A69B2F003E5CCF /* Main.storyboard */,
+				A1B299C129A69B30003E5CCF /* LaunchScreen.storyboard */,
+				A1B299BF29A69B30003E5CCF /* Assets.xcassets */,
+				A1B299C429A69B30003E5CCF /* Info.plist */,
+				A185063A29BD023100010908 /* GoogleService-Info.plist */,
+			);
+			path = TwoInOne;
+			sourceTree = "<group>";
+		};
+		A1B299CF29A6A4AD003E5CCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A182A1A829B239EF00F82455 /* Weather */,
+				A182A1A729B239E700F82455 /* Crypto */,
+				A1ECC3DA29B3696900650EB1 /* AudioModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1B299D029A6A4D6003E5CCF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A164408729AA84BA008DB560 /* RegistrationVC.swift */,
+				A13E075829A7D915002DB525 /* MainVC.swift */,
+				A134A26F29AE7FEE0019E70B /* WeatherVC.swift */,
+				A134A27129AE7FFC0019E70B /* CryptoVC.swift */,
+				A12881C529BE10FE00F5BD28 /* UserVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1CF6D3929AE6C0F001BF792 /* NunitoSans */ = {
+			isa = PBXGroup;
+			children = (
+				A1CF6D3B29AE6CEF001BF792 /* NunitoSans-SemiBold.ttf */,
+				A1CF6D3629AE6C0B001BF792 /* NunitoSans-Light.ttf */,
+				A1CF6D3729AE6C0C001BF792 /* NunitoSans-Regular.ttf */,
+			);
+			path = NunitoSans;
+			sourceTree = "<group>";
+		};
+		A1CF6D3A29AE6C17001BF792 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				A1CF6D3329AE6B47001BF792 /* Roboto-Light.ttf */,
+				A1CF6D3029AE6B47001BF792 /* Roboto-Medium.ttf */,
+				A1CF6D3229AE6B47001BF792 /* Roboto-Regular.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		A1ECC3DC29B36B9200650EB1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A1D0FCB229B3833500DDF4AC /* buttonPressed.mp3 */,
+				A1D0FCB329B3833500DDF4AC /* interfaceLoaded.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		D2A958146B10A800263BFF58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A2B3BF20214E68E078894C /* Pods-TwoInOne.debug.xcconfig */,
+				D1C3991157BB2075A0839F0E /* Pods-TwoInOne.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B299B229A69B2F003E5CCF /* TwoInOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B299C729A69B30003E5CCF /* Build configuration list for PBXNativeTarget "TwoInOne" */;
+			buildPhases = (
+				389771C7BA07C0775CCAFB50 /* [CP] Check Pods Manifest.lock */,
+				A1B299AF29A69B2F003E5CCF /* Sources */,
+				A1B299B029A69B2F003E5CCF /* Frameworks */,
+				A1B299B129A69B2F003E5CCF /* Resources */,
+				371D83964FD23303A84B83D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoInOne;
+			productName = TwoInOne;
+			productReference = A1B299B329A69B2F003E5CCF /* TwoInOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B299AB29A69B2F003E5CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A1B299B229A69B2F003E5CCF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A1B299AE29A69B2F003E5CCF /* Build configuration list for PBXProject "TwoInOne" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B299AA29A69B2F003E5CCF;
+			productRefGroup = A1B299B429A69B2F003E5CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B299B229A69B2F003E5CCF /* TwoInOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B299B129A69B2F003E5CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D0FCB529B3833500DDF4AC /* interfaceLoaded.mp3 in Resources */,
+				A1B299C329A69B30003E5CCF /* LaunchScreen.storyboard in Resources */,
+				A1D0FCB429B3833500DDF4AC /* buttonPressed.mp3 in Resources */,
+				A1B299C029A69B30003E5CCF /* Assets.xcassets in Resources */,
+				A1B299BE29A69B2F003E5CCF /* Main.storyboard in Resources */,
+				A185063B29BD023100010908 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		371D83964FD23303A84B83D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwoInOne/Pods-TwoInOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwoInOne/Pods-TwoInOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwoInOne/Pods-TwoInOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		389771C7BA07C0775CCAFB50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwoInOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B299AF29A69B2F003E5CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13E075929A7D915002DB525 /* MainVC.swift in Sources */,
+				A198C5FE29BE0BBB00930383 /* Image.swift in Sources */,
+				A134A27229AE7FFC0019E70B /* CryptoVC.swift in Sources */,
+				A182A1AA29B23A1000F82455 /* CoinModel.swift in Sources */,
+				A1488C7129B1386000D5F787 /* WeatherManager.swift in Sources */,
+				A134A27029AE7FEE0019E70B /* WeatherVC.swift in Sources */,
+				A198C60029BE104100930383 /* View.swift in Sources */,
+				A1B299B729A69B2F003E5CCF /* AppDelegate.swift in Sources */,
+				A165F12F29AD2DA600C7F0A2 /* DataTextField.swift in Sources */,
+				A1488C6F29B1354F00D5F787 /* WeatherModel.swift in Sources */,
+				A13E076029A7F127002DB525 /* Label.swift in Sources */,
+				A12881C629BE10FE00F5BD28 /* UserVC.swift in Sources */,
+				A182A1AC29B23A1800F82455 /* CoinData.swift in Sources */,
+				A164408829AA84BA008DB560 /* RegistrationVC.swift in Sources */,
+				A1ECC3DB29B3696900650EB1 /* AudioModel.swift in Sources */,
+				A182A1A629B2398500F82455 /* CoinManager.swift in Sources */,
+				A1488C6D29B130B900D5F787 /* WeatherData.swift in Sources */,
+				A1569C6E29A6DC6B00AEA589 /* Constants.swift in Sources */,
+				A1B299B929A69B2F003E5CCF /* SceneDelegate.swift in Sources */,
+				A13E075E29A7F0FA002DB525 /* Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1B299BC29A69B2F003E5CCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B299BD29A69B2F003E5CCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1B299C129A69B30003E5CCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B299C229A69B30003E5CCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1B299C529A69B30003E5CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B299C629A69B30003E5CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B299C829A69B30003E5CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A2B3BF20214E68E078894C /* Pods-TwoInOne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C7T379SKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwoInOne/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to get the current weather for where you are ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderandrianov.TwoInOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1B299C929A69B30003E5CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C3991157BB2075A0839F0E /* Pods-TwoInOne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C7T379SKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwoInOne/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to get the current weather for where you are ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderandrianov.TwoInOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B299AE29A69B2F003E5CCF /* Build configuration list for PBXProject "TwoInOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B299C529A69B30003E5CCF /* Debug */,
+				A1B299C629A69B30003E5CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B299C729A69B30003E5CCF /* Build configuration list for PBXNativeTarget "TwoInOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B299C829A69B30003E5CCF /* Debug */,
+				A1B299C929A69B30003E5CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B299AB29A69B2F003E5CCF /* Project object */;
+}

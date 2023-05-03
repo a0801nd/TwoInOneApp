@@ -1,0 +1,6 @@
+framework module Pods_TwoInOne {
+  umbrella header "Pods-TwoInOne-umbrella.h"
+
+  export *
+  module * { export * }
+}
